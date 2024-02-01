@@ -1,0 +1,15 @@
+const Id=Symbol('123')
+const Id1=null
+const AnotherId=Symbol('123')
+console.log(Id==AnotherId)
+console.log(AnotherId)
+const Bignumber=123455665444444443n
+console.log(typeof(Bignumber))
+//reference data types:array,object functions
+const heroes=["shaktiman","ironman","superman"]
+const myobj={name:"om",age:20}
+const  myfunction=function(){console.log("hello World!")}
+console.log(typeof(myfunction))
+console.log(typeof(Id1))
+console.log(typeof(heroes))
+console.log(typeof(myobj))
