@@ -2,10 +2,21 @@ const name="Om"
 const repocount=50
 console.log(name+repocount+"valuenode")
 console.log(`hello my name is ${name} and my repocount id ${repocount}`)
-const gameName= new String('uuuuubjk')
+const gameName= new String('  erty-o9ub-jk')
 console.log(gameName[0])
 console.log(gameName.__proto__)
 console.log(gameName.length)
 console.log(gameName.toUpperCase())//string methods//
 console.log(gameName.charAt(2))
 console.log(gameName.indexOf('j'))
+const newstring=gameName.substring(0,4)
+console.log(newstring)
+ const anotherstring=newstring.slice(-8,3)
+ console.log(anotherstring)
+ console.log(gameName.trim())
+const url="https:hitreenne.com/hitesh%20chaudhary"
+console.log(url.replace('%20','-'))
+console.log(url.includes('%20',))
+console.log(url.blink())
+console.log(gameName.split('-'))//converts into array
+
