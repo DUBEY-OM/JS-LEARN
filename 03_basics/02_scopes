@@ -1,0 +1,25 @@
+
+
+var c = 300
+let a = 11
+if (true) {
+    let a = 10
+    const b = 30
+    var c = 0
+    console.log("inner", a)
+}
+console.log(a)
+//console.log(b)
+console.log(c)
+
+//nested scope
+function one() {
+    const username = "om"
+    function two() {
+        const web="youtube"
+        console.log(username)
+    } two()
+    // console.log(web)
+   
+}
+one()
