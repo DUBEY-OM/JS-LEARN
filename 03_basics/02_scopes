@@ -22,4 +22,4 @@ function one() {
     // console.log(web)
    
 }
-one()
+one()//
