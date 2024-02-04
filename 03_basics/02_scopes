@@ -23,3 +23,12 @@ function one() {
    
 }
 one()//
+
+if (true){const username="hitesh"
+   if(username=="hitesh"){
+    const website="youtube"
+    console.log(username+website)
+
+   }
+   //console.log(website)
+}//console.log(username)
