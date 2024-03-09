@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur Js</h1>
+    <button id="start">START</button>
+    <button id="stop">STop</button>
+    <script>
+        // setInterval(function(){console.log("om0",Date.now())},1000)
+        let intervalid
+        const print=function(){function startprint(){console.log("START",Date.now())};
+        if(intervalid==null){intervalid=setInterval(startprint,1000);}}
+        document.querySelector('#start').addEventListener('click',print)
+        const clear=function(){clearInterval(intervalid);console.log("STOPPED");
+        // intervalid=null
+     }
+        document.querySelector('#stop').addEventListener('click',clear)
+</script>
+      
+</body>
+</html>
